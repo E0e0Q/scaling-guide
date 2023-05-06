@@ -1,0 +1,21 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="blog.models.django" />
+          <option value="blog.urls.*" />
+          <option value="blog.models.Post.*" />
+          <option value="blog.models.lost.*" />
+          <option value="blog.models.los_lis.*" />
+          <option value="blog.models.aaaaaaaaaaa.objects" />
+          <option value="blog.models.a.odjects" />
+          <option value="speech_recognition" />
+          <option value="pyttsx3" />
+          <option value="blog.views.Post" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

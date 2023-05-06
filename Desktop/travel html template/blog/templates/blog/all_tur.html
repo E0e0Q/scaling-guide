@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>all_tur</title>
+</head>
+<body>
+<p>Вверху написаны категориии из форен кей что бы видно было из какой категории </p>
+<h2>all_tur all_tur all_tur all_tur</h2>
+
+{%for i in category %}
+            <table style=" float:left;
+              color: #000;">
+              <tr>
+                <td><br><a href="{% url 'categoryes' category_pk=i.pk  %}">{{i}}</a></br></td>
+              </tr>
+              <tr>
+                <td>
+                    <p>
+                    <table style="border:1px solid black; width:100%">
+                 </td>
+            </table>
+{% endfor %}
+{%for i in po %}
+            <table>
+             <tr>
+                 <th><img src="{{i.img.url}}" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;"></th>
+                 <th><img src="{{i.imgs.url}}" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;"></th>
+                 <th> {{ i.name }}</th>
+             </tr>
+             <tr>
+                <th> {{ i.datas }}</th>
+                <th> {{ i.data }}</th>
+                <th> {{ i.published }}</th>
+                <th> {{ i.number_of_comments }}</th>
+             </tr>
+            </table>
+{% endfor %}
+
+</body>
+</html>

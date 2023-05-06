@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+{% load static %}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="TRABBLE - Tour, Travel, Travel Agency Template">
+    <meta name="keywords" content="Tour, Travel, Travel Agency Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Тур агенство пятница </title>
+
+    <!-- Google Fonts -->
+
+    <link href="{% static 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700 '%}" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.ico'%}">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    <!-- animate css -->
+    <link rel="stylesheet" href="{% static 'css/animate.css'%}">
+    <!-- Button Hover animate css -->
+    <link rel="stylesheet" href="{% static 'css/hover-min.css'%}">
+    <!-- jquery-ui.min css -->
+    <link rel="stylesheet" href="{% static 'css/jquery-ui.min.css'%}">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="{% static 'css/meanmenu.min.css'%}">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css'%}">
+    <!-- slick css -->
+    <link rel="stylesheet" href="{% static 'css/slick.css'%}">
+    <!-- chosen.min-->
+    <link rel="stylesheet" href="{% static 'css/chosen.min.css'%}">
+    <!-- chosen.min-->
+    <link rel="stylesheet" href="{% static 'css/jquery-customselect.css'%}">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css'%}">
+    <!-- magnific Css -->
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css'%}">
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="{% static 'css/assets/revolution/layers.css'%}">
+    <link rel="stylesheet" href="{% static 'css/assets/revolution/navigation.css'%}">
+    <link rel="stylesheet" href="{% static 'css/assets/revolution/settings.css'%}">
+    <!-- custome css -->
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="{% static 'css/responsive.css'%}">
+
+    <!-- modernizr css -->
+    <script src="{% static 'js/vendor/modernizr-2.8.3.min.js'%}"></script>
+</head>
+
+
+<body>
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status"></div>
+</div>
+<header>
+    <div class="header-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="header-top-left">
+                    <div class="col-md-9 col-sm-9 col-xs-12">
+                        <ul class="header-top-contact">
+                            <li><i class="fa fa-phone" aria-hidden="true"></i>+123-456-7890</li>
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i>info@trabble.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- header top end -->
+
+    <div class="header-bottom-area" id="stick-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <nav>
+                        <ul class="main-menu text-right">
+                            <li class="active"><a href="index.html">Home</a>
+                                <ul class="dropdown">
+                                    <li><a href="index.html">Home V1</a>
+                                    </li>
+                                    <li><a href="index-2.html">Home V2</a>
+                                    </li>
+                                    <li><a href="index-3.html">Home V3</a>
+                                    </li>
+                                    <li><a href="index-4.html">Home V4</a>
+                                    </li>
+                                    <li><a href="index-5.html">Home V5</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="package-version-one.html">Package List</a>
+                                <ul class="dropdown">
+                                    <li><a href="package-version-one.html">Package One</a>
+                                    </li>
+                                    <li><a href="package-version-two.html">Package Two</a>
+                                    </li>
+                                    <li><a href="single-package.html">Package Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="hotel-version-one.html">Hotels</a>
+                                <ul class="dropdown">
+                                    <li><a href="hotel-version-one.html">Hotel One</a>
+                                    </li>
+                                    <li><a href="hotel-version-one.two">Hotel Two</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="hotel-version-one.html">Flights</a>
+                            </li>
+                            <li><a href="blog-version-one.html">Blog</a>
+                                <ul class="dropdown">
+                                    <li><a href="blog-version-one.html">Blog One</a>
+                                    </li>
+                                    <li><a href="blog-version-two.html">Blog Two</a>
+                                    </li>
+                                    <li><a href="blog-single.html">Blog Post</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="package-version-one.html">Package One</a>
+                                    </li>
+                                    <li><a href="package-version-two.html">Package Two</a>
+                                    </li>
+                                    <li><a href="single-package.html">single package</a>
+                                    </li>
+                                    <li><a href="hotel-version-one.html">Hotel One</a>
+                                    </li>
+                                    <li><a href="hotel-version-one.two">Hotel Two</a>
+                                    </li>
+                                    <li><a href="blog-version-one.html">Blog One</a>
+                                    </li>
+                                    <li><a href="hotel-version-one.two">Blog Two </a>
+                                    </li>
+                                    <li><a href="blog-single.html">Single Blog</a>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div> <!-- main menu end here -->
+            </div>
+        </div>
+    </div> <!-- header-bottom area end here -->
+</header> <!-- header area end here -->
+
+{% for i in po%}
+	<div>
+<!--		<ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 895px; height: 100%; max-height: none; left: 0px;">-->
+<!--				 <ul>-->
+<!--                <li data-index="rs-3010" data-transition="fade" data-slotamount="7" data-hideafterloop="0"-->
+<!--                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1000"-->
+
+<!--                    data-thumb="static/images" data-rotate="0"-->
+
+
+<!--                    data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"-->
+<!--                    data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""-->
+<!--                    data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">-->
+<!--                    <div class="slider-overlay"></div>-->
+<!--                    &lt;!&ndash; MAIN IMAGE &ndash;&gt;-->
+
+
+<!--                    &lt;!&ndash; BEGIN BASIC TEXT LAYER &ndash;&gt;-->
+<!--                    &lt;!&ndash; LAYER NR. 1 &ndash;&gt;-->
+<!--              <div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-1"-->
+<!--                       style="z-index: 6; font-size: 37px; color: rgb(255, 255, 255);-->
+<!--                        font-weight: 400; line-height: center; border-width: 86%; margin: 14% 4% 4% 25%; padding: 1%; letter-spacing: 6px;">-->
+<!--                        <div style="font-size: 70px"> Турагентство пятница </div>-->
+<!--                       <h4 style="border-width: 86%; margin: auto 3% 20%; padding: 5px;"> Погрузись в райское наслождение  </h4>-->
+<!--              </div>-->
+
+<!--                    &lt;!&ndash; LAYER NR. 2 &ndash;&gt;-->
+<!--                    <div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-2" data-x="center"-->
+<!--                         data-hoffset="0" data-y="center" data-voffset="-80"-->
+<!--                          style="z-index: 6; color:#fff; text-transform:capitalize; font-family:'Poppins', sans-serif; white-space: nowrap;">-->
+<!--                        <h1 style="font-weight:00; font-size:60px;">198 198 198 </h1>-->
+<!--                    </div>-->
+
+<!--                    &lt;!&ndash; LAYER NR. 3 &ndash;&gt;-->
+<!--                    <div class="tp-caption font-lora sfb tp-resizeme letter-space-5  header-p1" data-x="center"-->
+<!--                         data-hoffset="0" data-y="center" data-voffset="-5"-->
+<!--                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":750,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'-->
+<!--                         style="z-index: 7; font-size:16px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; LAYER NR. 4 &ndash;&gt;-->
+<!--                    <div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p2" data-x="center"-->
+<!--                         data-hoffset="0" data-y="center" data-voffset="20"-->
+<!--                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":750,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'-->
+<!--                         style="z-index: 7; font-size:16px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">-->
+<!--                    </div>-->
+
+<!--                    &lt;!&ndash; LAYER NR. 5 &ndash;&gt;-->
+<!--                    <div class="tp-caption lfb tp-resizeme  header-btn" data-x="center" data-hoffset="0" data-y="center"-->
+<!--                         data-voffset="120"-->
+<!--                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":750,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'-->
+<!--                         style="z-index: 8;"><a href="#" class="travel-primary-btn hvr-fade">220</a>-->
+<!--                    </div>--><!--                    </div>-->
+
+<!--                    &lt;!&ndash; LAYER NR. 5 &ndash;&gt;-->
+<!--                    <div class="tp-caption lfb tp-resizeme  header-btn" data-x="center" data-hoffset="0" data-y="center"-->
+<!--                         data-voffset="120"-->
+<!--                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":750,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'-->
+<!--                         style="z-index: 8;"><a href="#" class="travel-primary-btn hvr-fade">220</a>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                &lt;!&ndash; first slider end &ndash;&gt;-->
+
+<!--                <li data-index="rs-3047" data-transition="zoomin" data-slotamount="7" data-hideafterloop="0"-->
+<!--                    data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"-->
+
+<!--                    data-masterspeed="2000" data-thumb="static/images/slider/slider-back-04.jpg" data-rotate="0"-->
+
+<!--                    data-saveperformance="off" data-title="Ken Burns" data-param1="" data-param2="" data-param3=""-->
+<!--                    data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""-->
+<!--                    data-param10="" data-description="">-->
+<!--                    <div class="slider-overlay"></div>-->
+<!--                    &lt;!&ndash; SLIDE'S MAIN BACKGROUND IMAGE &ndash;&gt;-->
+
+
+
+
+<!--              <div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-1"-->
+<!--                       style="z-index: 6; font-size: 37px; color: rgb(255, 255, 255);-->
+<!--                        font-weight: 400; line-height: center; border-width: 86%; margin: 14% 4% 4% 25%; padding: 1%; letter-spacing: 6px;">-->
+<!--                        <div style="font-size: 70px"> Турагентство пятница </div>-->
+<!--                       <h4 style="border-width: 86%; margin: auto 3% 20%; padding: 5px;"> Погрузись в райское наслождение  </h4>-->
+<!--              </div>-->
+
+
+<!--                    <img src="{{i.img_dva.url}}"  alt="" data-bgposition="center center" data-kenburns="on" data-duration="0"-->
+
+
+<!--                         data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0"-->
+<!--                         data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10"-->
+<!--                         class="rev-slidebg" data-no-retina>-->
+
+
+<!--        <div style="  min-width: 100%; height: auto;"> <img src="{{i.img_dva.url}}" >-->
+        <div style="width: 100%; height: 100%;"> <img src="{{i.img_dva.url}}" width="100%" height="100%" >
+            <div style=" position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); font-size: 60px; color: #fff;  letter-spacing: 6px; " > {{i.name1}}</div>
+            <div style=" position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%); font-size: 40px; color: #fff;  max-letter-spacing: 6px" > <h3> {{i.name2}}</h3> </div>
+        </div>
+
+
+
+                    <!-- LAYER NR. 1 -->
+
+
+<!--                    &lt;!&ndash; LAYER NR. 2 &ndash;&gt;-->
+<!--                    <div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-2" data-x="center"-->
+<!--                         data-hoffset="0" data-y="center" data-voffset="-80"-->
+<!--                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":750,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'-->
+<!--                         style="z-index: 6; color:#fff; text-transform:capitalize; font-family:'Poppins', sans-serif; white-space: nowrap;">-->
+<!--                        <h1 style="font-weight:600; font-size:60px;">257</h1>-->
+<!--                    </div>-->
+
+<!--                    &lt;!&ndash; LAYER NR. 3 &ndash;&gt;-->
+<!--                    <div class="tp-caption font-lora sfb tp-resizeme letter-space-5  header-p1" data-x="center"-->
+<!--                         data-hoffset="0" data-y="center" data-voffset="-5"-->
+<!--                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":750,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'-->
+<!--                         style="z-index: 7; font-size:16px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; LAYER NR. 4 &ndash;&gt;-->
+<!--                    <div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p2" data-x="center"-->
+<!--                         data-hoffset="0" data-y="center" data-voffset="20"-->
+<!--                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":750,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'-->
+<!--                         style="z-index: 7; font-size:16px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">-->
+<!--                    </div>-->
+
+<!--                    &lt;!&ndash; LAYER NR. 5 &ndash;&gt;-->
+<!--                    <div class="tp-caption lfb tp-resizeme  header-btn" data-x="center" data-hoffset="0" data-y="center"-->
+<!--                         data-voffset="120"-->
+<!--                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":750,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'-->
+<!--                         style="z-index: 8;"><a href="#" class="travel-primary-btn hvr-fade">279</a>-->
+<!--			</ul>-->
+<!--		<div class="tp-loader spinner0" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="tp-bannertimer" style="visibility: visible; width: 88.6222%; transform: translate3d(0px, 0px, 0px);"></div><div class="tp-leftarrow tparrows gyges" style="top: 50%; transform: matrix(1, 0, 0, 1, -133, 54); left: 100%;"></div><div class="tp-rightarrow tparrows gyges" style="top: 50%; transform: matrix(1, 0, 0, 1, -133, -26); left: 100%;"></div></div> &lt;!&ndash; end slider container &ndash;&gt;-->
+<!--	</div> &lt;!&ndash; END end slider container wrapper &ndash;&gt;-->
+</div>
+{% endfor%}
+
+
+
+<section class="tabbased-search-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tabbable-menu">
+                    <ul class="tab-menu" id="myTab1">
+                        <li class="active"><h6><a href="#hotels" data-easein="fadeIn">Hotels<img
+                                src="images/icon/hotel.png" alt=""></a></h6>
+                        </li>
+                        <li><h6><a href="#tour" data-easein="fadeIn">Tour<img src="images/icon/tour.png" alt=""></a>
+                        </h6>
+                        </li>
+                        <li><h6><a href="#flights" data-easein="fadeIn">Flights<img src="images/icon/fly.png"
+                                                                                    alt=""></a></h6>
+                        </li>
+                        <li><h6><a href="#vehicles" data-easein="fadeIn">Vehicles<img src="images/icon/car.png" alt=""></a>
+                        </h6>
+                        </li>
+                        <li><h6><a href="#ship" data-easein="fadeIn">Ship<img src="images/icon/ship.png" alt=""></a>
+                        </h6>
+                        </li>
+                    </ul>
+                </div> <!-- tab menu end here -->
+
+                <!-- tab content strat here -->
+                <div class="tab-content" id="tab-content1">
+                    <div class="tab-pane active" id="hotels">
+                        <div class="hotels-form">
+                            <form action="#" method="post">
+                                <div class="hotel-input-2 input-b">
+                                    <input type="text" name="s" id="keyword" class="hotel-input-first"
+                                           placeholder="Type Keyword">
+                                </div>
+                                <div class="hotel-input-4 input-b">
+                                    <select id='standard1' name='standard' class='custom-select'>
+                                        <option value=''>Select a Location</option>
+                                        <option value='Us'>America</option>
+                                        <option value='Canda'>Canada</option>
+                                        <option value='london'>London</option>
+                                        <option value='france'>Paris</option>
+                                        <option value='bd'>Bangladesh</option>
+                                        <option value='bd'>Bangdddddh</option>
+                                    </select>
+                                </div>
+                                <div class="hotel-input-1 input-s">
+                                    <input type="text" name="s" id="datepicker" class="hotel-input-first"
+                                           placeholder="Check-In">
+                                </div>
+                                <div class="hotel-input-1 input-s">
+                                    <input type="text" name="s" id="datepicker1" class="hotel-input-first"
+                                           placeholder="Check-out">
+                                </div>
+                                <div class="hotel-input-1 input-s">
+                                    <input type="number" name="s" id="number" class="hotel-input-first"
+                                           placeholder="Guest">
+                                </div>
+                                <div class="hotel-input-1 input-s">
+                                    <input type="text" name="s" id="budget" class="hotel-input-first"
+                                           placeholder="Budget">
+                                </div>
+                                <div class="searc-btn-7">
+                                    <button type="submit">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div> <!-- hotel form end here -->
+
+                    <div class="tab-pane" id="tour">
+                        <div class="hotels-form">
+                            <form action="#" method="post">
+                                <div class="hotel-input-4-23 input-b">
+                                    <input type="text" name="s" id="keyword2" class="hotel-input-first"
+                                           placeholder="Type Keyword">
+                                </div>
+                                <div class="hotel-input-4-23 input-b">
+                                    <select id='standard2' name='standard' class='custom-select'>
+                                        <option value=''>Select a Location</option>
+                                        <option value='Us'>America</option>
+                                        <option value='Canda'>Canada</option>
+                                        <option value='london'>London</option>
+                                        <option value='france'>Paris</option>
+                                        <option value='bd'>Bangladesh</option>
+                                    </select>
+                                </div>
+                                <div class="hotel-input-4-23 input-s">
+                                    <input type="text" name="s" id="datepicker2" class="hotel-input-first"
+                                           placeholder="Check-In Date">
+                                </div>
+                                <div class="hotel-input-4-23 input-s">
+                                    <input type="number" name="s" id="number1" class="hotel-input-first"
+                                           placeholder="Number of Guest">
+                                </div>
+                                <div class="searc-btn-7">
+                                    <button type="submit">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div> <!-- hotel form end here -->
+
+                    <div class="tab-pane" id="flights">
+                        <div class="flights-form">
+                            <form action="#" method="post">
+                                <div class="tour-input-20 input-b">
+                                    <select id='standard3' name='standard' class='custom-select'>
+                                        <option value=''>Origin City or airport</option>
+                                        <option value='Us'>America</option>
+                                        <option value='Canda'>Canada</option>
+                                        <option value='london'>London</option>
+                                        <option value='france'>Paris</option>
+                                        <option value='bd'>Bangladesh</option>
+                                    </select>
+                                </div>
+                                <div class="tour-input-20 input-b">
+                                    <select id='standard4' name='standard' class='custom-select'>
+                                        <option value=''>Destination City</option>
+                                        <option value='Us'>America</option>
+                                        <option value='Canda'>Canada</option>
+                                        <option value='london'>London</option>
+                                        <option value='france'>Paris</option>
+                                        <option value='bd'>Bangladesh</option>
+                                    </select>
+                                </div>
+                                <div class="tour-input-15 input-s">
+                                    <input type="text" name="s" id="datepicker3" class="hotel-input-first"
+                                           placeholder="Daparture date">
+                                </div>
+                                <div class="tour-input-15 input-s">
+                                    <input type="text" name="s" id="datepicker4" class="hotel-input-first"
+                                           placeholder="Return date">
+                                </div>
+                                <div class="tour-input-15 input-b">
+                                    <select id='nosearch' name='standard' class='custom-select'>
+                                        <option value=''>Economy</option>
+                                        <option value='Economy'>Economy</option>
+                                        <option value='Business'>Business</option>
+                                    </select>
+                                </div>
+                                <div class="tour-input-7-5 input-s input-xm">
+                                    <select id='nosearch1' name='standard' class='custom-select'>
+                                        <option value=''>Adult</option>
+                                        <option value='1'>1</option>
+                                        <option value='2'>2</option>
+                                        <option value='3'>3</option>
+                                        <option value='4'>4</option>
+                                        <option value='5'>5</option>
+                                        <option value='6'>6</option>
+                                        <option value='7'>7</option>
+                                        <option value='8'>8</option>
+                                        <option value='9'>9</option>
+                                        <option value='10'>10</option>
+                                    </select>
+                                </div>
+                                <div class="tour-input-7-5  input-s input-xm">
+                                    <select id='nosearch2' name='standard' class='custom-select'>
+                                        <option value=''>Kids</option>
+                                        <option value='1'>1</option>
+                                        <option value='2'>2</option>
+                                        <option value='3'>3</option>
+                                        <option value='4'>4</option>
+                                        <option value='5'>5</option>
+                                        <option value='6'>6</option>
+                                        <option value='7'>7</option>
+                                        <option value='8'>8</option>
+                                        <option value='9'>9</option>
+                                        <option value='10'>0</option>
+                                    </select>
+                                </div>
+                                <div class="searc-btn-7 flights-search-btn">
+                                    <button type="submit">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div> <!-- flights form start here -->
+
+                    <div class="tab-pane" id="vehicles">
+                        <div class="hotels-form">
+                            <form action="#" method="post">
+                                <div class="hotel-input-4-23  input-s">
+                                    <input type="text" name="s" id="pickupdate" class="hotel-input-first"
+                                           placeholder="Pickup Date & time">
+                                </div>
+                                <div class="hotel-input-4-23 input-s">
+                                    <input type="number" name="s" id="hours" class="hotel-input-first"
+                                           placeholder="Hours">
+                                </div>
+                                <div class="hotel-input-4-23 input-s">
+                                    <input type="text" name="s" id="pickup" class="hotel-input-first"
+                                           placeholder="Pickup Location">
+                                </div>
+                                <div class="hotel-input-4-23 input-s">
+                                    <input type="text" name="s" id="location" class="hotel-input-first"
+                                           placeholder="Drop Location">
+                                </div>
+                                <div class="searc-btn-7">
+                                    <button type="submit">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div> <!-- vehicles form end here -->
+
+                    <div class="tab-pane" id="ship">
+                        <div class="hotels-form">
+                            <form action="#" method="post">
+                                <div class="hotel-input-4-23 input-s">
+                                    <input type="text" name="s" id="shippickupdate" class="hotel-input-first"
+                                           placeholder="Pickup Date & time">
+                                </div>
+                                <div class="hotel-input-4-23 input-s">
+                                    <input type="number" name="s" id="time" class="hotel-input-first"
+                                           placeholder="Hours">
+                                </div>
+                                <div class="hotel-input-4-23 input-s">
+                                    <input type="text" name="s" id="name" class="hotel-input-first"
+                                           placeholder="Pickup Location">
+                                </div>
+                                <div class="hotel-input-4-23 input-s">
+                                    <input type="text" name="s" id="drop-location" class="hotel-input-first"
+                                           placeholder="Drop Location">
+                                </div>
+                                <div class="searc-btn-7">
+                                    <button type="submit">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div><!-- ship form end here -->
+                </div><!-- tab content end -->
+            </div>
+        </div>
+    </div>
+</section> <!-- header tab based search area end-->
+
+<section class="popular-packages pb-70 pt-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-title text-center">
+                    <h2><a href="{% url 'osnova' %}">Популярные туры</a></h2>
+                    <p> 111111 1  534</p>
+                </div>
+            </div>
+        </div>
+        {% for i in posts %}
+       <div >
+           <div>
+               <div class="col-md-4 col-sm-6">
+                   <div class="single-package">
+                       <div class="package-image">
+                           <a href="{% url 'podrobno' i_pk=i.pk %}"><img src={{i.img.url}} style="width:396px;height:341px;"></a>
+                           </a>
+                       </div>
+                       <div class="package-content">
+                           <a href="{% url 'podrobno' i_pk=i.pk %}"><h3>{{i.gl}}</h3></a>                                           
+                           <p>{{i.datas}}</p>                                                                                       
+                           <p>{{i.keys}}</p>                                                                                        
+                           <p><span> от {{i.many}} т.р</span></p>                                                                   
+                       </div>                                                                                                       
+                       <div class="package-calto-action">                                                                           
+                           <ul class="ct-action">                                                                                   
+                               <li><a href="{% url 'podrobno' i_pk=i.pk %}"
+                                      class="travel-booking-btn hvr-shutter-out-horizontal">463 строка </a>
+                               </li>
+                               <li>                                                                                                 
+                                   <i class="fa fa-star"></i>                                                                       
+                                   <i class="fa fa-star"></i>                                                                       
+                                   <i class="fa fa-star"></i>                                                                       
+                                   <i class="fa fa-star"></i>                                                                       
+                                   <i class="fa fa-star"></i>                                                                       
+                               </li>                                                                                                
+                           </ul>                                                                                                    
+                       </div>                                                                                                       
+                   </div>                                                                                                           
+                   <div>
+            </div> <!-- Популярные Туры -->
+        </div>
+       {% endfor %}
+    </div>
+</section> <!--end  popular packajge -->
+
+
+
+<section class="container">
+    {%for i in category %}
+        <div style=" display: inline-block">
+            <div>
+                <div style="margin: 3px 3em 20px 3em  ">
+                    <a href="{% url 'categoryes' category_pk=i.pk %}" class="travel-primary-btn hvr-fade">{{i}}</a>
+                </div>
+            </div>
+        </div>
+    {%endfor%}
+
+    </div>
+    <div class="container">
+        <div align="center">
+            <h3>
+                <a href="{% url 'all_tur' %}" >
+                    <div class="travel-primary-btn hvr-fade" style="color: #FAEBD7; margin: 2em">A так же можно посмотреть все туры </div>
+                </a>
+            </h3>
+        </div>
+    </div>
+</section>
+
+
+<section class="countdown count-down-bg image-bg-padding-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12-col-xs-12">
+                <div class="count-down-titile">
+                {% for i in my %}
+                    <h3>{{i.zagol}}</h3>
+                </div>
+                <div class="count-timer text-center">
+                    <div class="time-wrapper">
+                        <p> {{i.ksia}} </p>
+                        <div class="timer">
+							<div data-countdown={{i.data}}></div>
+						</div>
+                    </div>
+                </div>
+                {% endfor %}
+                {%for i in categor %}
+                    <div class="buy-now text-center">
+                            <a href="{% url 'categoryes' category_pk=i.pk %}" class="travel-primary-btn hvr-fade"> Бронировать </a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="popular-packages pb-70 pt-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-title text-center">
+                </div>
+            </div>
+        </div>
+        {% for i in gor_tur %}
+        <div class="a">
+            <div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-package">
+                        <div class="package-image">
+                            <a href="{% url 'podrobno' i_pk=i.pk %}"><img src={{i.img.url}} style="width:396px;height:341px;"></a>
+                            </a>
+                        </div>
+                        <div class="package-content">
+                            <a href="{% url 'podrobno' i_pk=i.pk %}"><h3>{{i.gl}}</h3></a>
+                            <p>{{i.datas}}</p>
+                            <p>{{i.keys}}</p>
+                            <p><span> от {{i.many}} т.р</span></p>
+                        </div>
+                        <div class="package-calto-action">
+                            <ul class="ct-action">
+                                <li><a href="{% url 'podrobno' i_pk=i.pk %}"
+                                       class="travel-booking-btn hvr-shutter-out-horizontal">463 строка </a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+             </div> <!-- Популярные Туры -->
+         </div>
+        {% endfor %}
+    </div>
+</section> <!--end  popular packajge -->
+
+
+
+<section class="section-paddings">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-title text-center">
+                    <h2>682 Советики что бы не проебаться</h2>
+                    <p>680 </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- single travel blog-->
+
+            {% for i in sovet%}
+            <div class="col-md-4 col-sm-6 phone-layout-s">
+                <div class="single-travel-blog">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <div class="post-date">
+                                <span><i class="fa fa-calendar"></i> {{i.data}}</span>
+                            </div>
+                            <ul class="post-social">
+                                <li><a href="{% url 'help' %}"><i class="fa fa-heart-o"></i>{{i.number_licK}}</a>
+                                </li>
+                            </ul>
+                        </div>
+                         <div class="blog-post-content">
+                            <h4>{{i.zagolovok}}</h4>
+                            <p>{{i.tema_cmoll}}</p>
+                            <a href="{% url 'help' %}">Читать дальше <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- single travel guide & security end-->
+            {% endfor %}
+        </div>
+    </div>
+</section> <!--End guide and Expert Advice strat -->
+
+<div class="section-paddings incredible-places">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-title text-center">
+                    <h2>653 Невероятные места (фото где была Аля)</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam at ipsum at ligula
+                        vestibulum sodales Sed luctus orci vel nibh aliquam laoreet Aenean accumsan</p>
+                </div>
+            </div>
+        </div>
+        {% for i in o_sebe %}
+            <div class="col-md-4 col-sm-6">
+                <div class="single-place">
+                    <figure>
+                        <a href="{% url 'MY' %}"><a href="{% url 'MY' %}"><img src="{{i.img.url}}"
+                                             style="width:400px;height:190px;">
+                        <figcaption>
+                           <a href="{% url 'MY' %}">
+                               <h4>Город:<span>{{i.mane_situ}} </span></h4>
+                               <h4>Запомнилось:<span>{{i.tema_cmoll}}</span></h4>
+                           </a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div> <!-- end single place -->
+        {% endfor %}
+
+    </div>
+</div>
+
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <!-- footer left -->
+            <div class="col-md-3 col-sm-6">
+                <div class="single-footer">
+                    <div class="footer-title">
+                        <a href="#"><img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer-left">
+                        <div class="footer-logo">
+                            <p> 725 Lorem ipsum dolor sit amet conset ctetur adipiscin elit Etiam at
+                                ipsum at ligula vestibulum sodales.</p>
+                        </div>
+                        <ul class="footer-contact">
+                            <li><img class="map" src="images/icon/map.png" alt="">Seventh Avenue New
+                                York
+                            </li>
+                            <li><img class="map" src="images/icon/phone.png" alt="">+123-456-7890</li>
+                            <li><img class="map" src="images/icon/gmail.png" alt="">info@yourcompany.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- footer left -->
+
+            <div class="col-md-3 col-sm-6">
+                <div class="single-footer">
+                    <div class="single-recent-post">
+                        <div class="footer-title">
+                            <h3>Свежие овости</h3>
+                        </div>
+                        {% for i in news %}
+                        <ul class="recent-post">
+                            <li>
+                                <a href="{% url 'news_NEW'%}">
+                                    <div class="post-thum">
+                                        <img src="{{i.img.url}}"
+                                             style="width:70px;height:60px;margin-left:15px;">
+                                    </div>
+                                    <div class="post-content">
+                                        <p>{{i.nows}}
+                                        </p>
+                                        <span>{{i.data}}</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>    <!-- footer latest news -->
+
+            <!-- footer destination -->
+            <div class="col-md-3 col-sm-6">
+                <div class="single-footer">
+                    <div class="footer-title">
+                        <h3> <a href="{% url 'сoment_new'%}"> Оставить отзыв </a> </h3>
+                    </div>
+                     {% for i in Otziv_Q%}
+                    <a href="{% url 'сoment_new'%}">
+                        <table style="color: #fff;border: 0px solid; width:35em; height: 7em ;word-wrap: break-word">
+                          <tr >
+                            <th>{{i.name_otziv}}:</th>
+                          </tr>
+                            <p>   </p>
+                          <tr>
+                            <td style="max-width:500px"> {{i.otziv_otziv}}</td>
+                          </tr>
+                        </table>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>    <!-- footer destination -->
+
+        <!-- footer contact -->
+            <div class="col-md-3 col-sm-6 f-phone-responsive">
+                <div class="single-footer">
+                    <div class="footer-social-media">
+                        <ul class="footer-social-link">
+                            <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li class="gplus"><a href="#"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    <!-- footer contact -->
+        </div>
+
+        <div class="row">
+            <div class="footer-bottom">
+                <div class="col-md-5">
+                    <div class="copyright">
+                        <p>Copyright &copy; 2018 Trabble By <a href="#"><span>SylTheme</span></a></p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <ul class="payicon pull-right">
+                        <li><img src="{% static 'images/payicon01.png'%}"></li>
+                        <li><img src="{% static 'images/payicon02.png'%}"></li>
+                        <li><img src="{% static 'images/payicon03.png'%}"></li>
+                        <li><img src="{% static 'images/payicon04.png'%}"></li>
+                        <li><img src="{% static 'images/payicon05.png'%}"></li>
+                        <li><img src="{% static 'images/payicon06.png'%}"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer> <!-- end footer -->
+
+
+<div class="to-top pos-rtive">
+    <a href="#"><i class="fa fa-angle-up"></i></a>
+</div><!-- Scroll to top-->
+
+<!-- ============================
+        JavaScript Files
+============================= -->
+<!-- jquery -->
+<script src="{% static 'js/vendor/jquery-3.2.0.min.js'%}"></script>
+<!-- bootstrap js -->
+<script src="{% static 'js/bootstrap.min.js'%}"></script>
+<!-- owl.carousel js -->
+<script src="{% static 'js/owl.carousel.min.js'%}"></script>
+<!-- slick js -->
+<script src="{% static 'js/slick.min.js'%}"></script>
+<!-- meanmenu js -->
+<script src="{% static 'js/jquery.meanmenu.min.js'%}"></script>
+<!-- jquery-ui js -->
+<script src="{% static 'js/jquery-ui.min.js'%}"></script>
+<!-- wow js -->
+<script src="{% static 'js/wow.min.js'%}"></script>
+<!-- counter js -->
+<script src="{% static 'js/jquery.counterup.min.js'%}"></script>
+<!-- Countdown js -->
+<script src="{% static 'js/jquery.countdown.min.js'%}"></script>
+<!-- waypoints js -->
+<script src="{% static 'js/jquery.waypoints.min.js'%}"></script>
+<!-- Isotope js -->
+<script src="{% static 'js/isotope.pkgd.min.js'%}"></script>
+<!-- magnific js -->
+<script src="{% static 'js/jquery.magnific-popup.min.js'%}"></script>
+<!-- Image loaded js -->
+<script src="{% static 'js/imagesloaded.pkgd.min.js'%}"></script>
+<!-- chossen js -->
+<script src="{% static 'js/chosen.jquery.min.js'%}"></script>
+<!-- Revolution JS -->
+<script src="{% static 'js/assets/revolution/jquery.themepunch.revolution.min.js'%}"></script>
+<script src="{% static 'js/assets/revolution/jquery.themepunch.tools.min.js"></script>
+<script src="{% static 'js/assets/revolution/extensions/revolution.extension.actions.min.js'%}"></script>
+<script src="{% static 'js/assets/revolution/extensions/revolution.extension.carousel.min.js'%}"></script>
+<script src="{% static 'js/assets/revolution/extensions/revolution.extension.kenburn.min.js'%}"></script>
+<script src="{% static 'js/assets/revolution/extensions/revolution.extension.layeranimation.min.js'%}"></script>
+<script src="{% static 'js/assets/revolution/extensions/revolution.extension.migration.min.js'%}"></script>
+<script src="{% static 'js/assets/revolution/extensions/revolution.extension.navigation.min.js'%}"></script>
+<script src="{% static 'js/assets/revolution/extensions/revolution.extension.parallax.min.js'%}"></script>
+<script src="{% static 'js/assets/revolution/extensions/revolution.extension.slideanims.min.js'%}"></script>
+<script src="{% static 'js/assets/revolution/extensions/revolution.extension.video.min.js'%}"></script>
+<script src="{% static 'js/assets/revolution/revolution.js'%}"></script>
+<!-- plugin js -->
+<script src="{% static 'js/plugins.js'%}"></script>
+<!-- select2 js -->
+<script src="{% static 'js/select2.min.js'%}"></script>
+<script src="{% static 'js/colors.js'%}"></script>
+<!-- customSelect Js -->
+<script src="{% static 'js/jquery-customselect.js'%}"></script>
+<!-- custom js -->
+<script src="{% static 'js/custom.js'%}"></script>
+
+</body>
+</html>
